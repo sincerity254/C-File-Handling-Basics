@@ -3,9 +3,9 @@
 int main() {
     // WRITE A FILE 
 
-    FILE *pFile = fopen("my_file.txt", "w");
+    FILE *pFile = fopen("C:\\Users\\my_file.txt", "w");
 
-    char text[] = "HAKUNA CHA FOREPLAY HAPA\n KUJA KAMA UMEJIDARA";
+    char text[] = "AM GOING TO BE\n AN IT GURU INSHALLAH";
 
     if(pFile == NULL){
         printf("Error opening file\n");
@@ -18,4 +18,5 @@ int main() {
     fclose(pFile);
     
     return 0;
+
 }
